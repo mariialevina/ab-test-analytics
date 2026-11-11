@@ -1,0 +1,30 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python build and cash files
+__pycache__/
+*.pyc
+
+# cash files
+.pytest_cache/
+.ruff_cache/
+
+# Data files: raw datasets except of README
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.xlsx
+
+# Secrets and credentials
+.env
+.env.*
+
+# Jupiter notebook backup copies
+.ipynb_checkpoints/
+
+# PyCharm/VS Code project settings
+.idea/
+.vscode/
+
